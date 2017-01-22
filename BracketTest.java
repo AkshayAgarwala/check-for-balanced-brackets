@@ -19,6 +19,7 @@ public class BracketTest {
 	 */
 
 	public void checkInputFileBalance(ArrayList<Character> input) {
+		System.out.println();
 		makeStack(input);
 	} // checkInputFileBalance method
 
@@ -108,7 +109,7 @@ public class BracketTest {
 			System.exit(1);
 		}
 		else // otherwise the input file is balanced
-			System.out.println("The Input File is well-balanced.\n");
+			System.out.println("\n\nThe Input File is well-balanced.\n");
 	} // checkForExcessLeftBrackets method
 
 	/**

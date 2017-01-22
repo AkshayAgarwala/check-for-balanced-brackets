@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * "Brackets" in the print refers to (), {}, and [].
  *
  */
-public class Project2 {
+public class CheckBracketBalance {
 	public static void main(String[] args) throws IOException {
 
 		FileInputStream fstream = new FileInputStream(args[0]);
@@ -25,7 +25,7 @@ public class Project2 {
 		}
 
 		BracketTest input = new BracketTest(); // Create a new BracketTest object to test the input file
-
+		
 		input.checkInputFileBalance(inputFile); // calls a method from BracketTest and passes the ArrayList
 
 		br.close();
